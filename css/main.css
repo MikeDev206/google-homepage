@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    /* font-size: 62.5%; */
+}
+
+body {
+    font-family: arial, sans-serif;
+    color: #222222;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style: none;
+    padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000de;
+    font-size: .9rem;
+}
+
+.navbar li :hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.usr-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+}
+
+
+/* Navbar
+
+/* Google Section */
+
+.google-logo img {
+    display: block;
+    margin: auto;
+    padding-top: 10.3rem;
+    padding-left: 19rem;
+    height: 6.3rem;
+    width: 18rem;
+}
+
+.search-bar {
+    display: inline-block;
+    padding-left: 30rem;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+
+/* .search-bar:hover {
+    border: ;
+} */
+
+.search-bar input {
+    background-color: transparent;
+    margin: 0;
+    color: #000000de;
+    outline: none;
+    margin-top: 37px;
+    font-size: .9rem;
+}
+
+
+/* Google Section */

@@ -11,39 +11,47 @@
 <body>
     <!--Navigation bar // Header-->
 
-    <ul class="nav navbar">
-        <a href="https://www.google.com.mx/imghp?hl=es"> Gmail </a>
-        <a href="https://www.google.com.mx/imghp?hl=es"> Images</a>
-        <img src="./assets/icons/menu.svg" alt="apps menu" />
-        <img src="./assets/icons/user.svg" alt="user icon" />
+    <ul class="navbar">
+        <li><a href="https://www.google.com.mx/imghp?hl=es"> Gmail </a></li>
+        <li><a href="https://www.google.com.mx/imghp?hl=es"> Images</a></li>
+        <li>
+            <img class="nav-icon" src="./assets/icons/menu.svg" alt="apps menu" />
+        </li>
+        <li>
+            <img class="usr-img" src="./assets/img/myimg.jpg" alt="user button" />
+        </li>
     </ul>
 
     <!--Navigation bar // Header-->
 
     <!--Main section-->
 
-    <section>
-        <div class="google-img">
+    <main>
+        <div class="google-logo">
             <img src="./assets/img/googlelogo_color_272x92dp.png" alt="google logo" />
         </div>
-        <div class="search-button" action="action_page.php">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling lucky</button>
-            <p>
-                Google offered in:
-                <a href="https://www.google.com/setprefs?sig=0_NbHu266YoPfbGnRcH4wwW2GUsVU%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjN6pvAltDqAhUKKawKHVbiCicQ2ZgBCA8">Español (Latinoamérica)</a
-          >
-        </p>
-      </div>
-    </section>
+        <div class="search-bar">
+            <img class="nav-icon" src="./assets/icons/search.svg" alt="search icon" />
+
+            <input type="text" name="search" size="40" />
+
+            <img class="nav-icon" src="./assets/icons/microphone.svg" alt="microphone" />
+        </div>
+        <button class="button" type="submit">Google Search</button>
+        <button class="button" type="submit">I'm Feeling lucky</button>
+        <p>
+            Google offered in:
+            <a href="https://www.google.com/setprefs?sig=0_NbHu266YoPfbGnRcH4wwW2GUsVU%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjN6pvAltDqAhUKKawKHVbiCicQ2ZgBCA8">Español (Latinoamérica)</a
+        >
+      </p>
+    </main>
 
     <!--Main section-->
 
     <!-- Footer -->
 
     <legend>México</legend>
-    <div class="footer">
+    <div class="nav footer">
       <ul>
         <a
           href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
@@ -63,13 +71,13 @@
       </ul>
       <ul>
         <a href="https://policies.google.com/privacy?hl=en-MX&fg=1">Privacy</a>
-                <a href="https://policies.google.com/terms?hl=en-MX&fg=1">Terms</a>
-                <li>
-                    Settings
-                    <ul>
-                        <li>Search Settings</li>
-                        <li>
-                            <a href="https://www.google.com/advanced_search?hl=en-MX&fg=1">Search</a
+            <a href="https://policies.google.com/terms?hl=en-MX&fg=1">Terms</a>
+            <li>
+                Settings
+                <ul>
+                    <li>Search Settings</li>
+                    <li>
+                        <a href="https://www.google.com/advanced_search?hl=en-MX&fg=1">Search</a
               >
             </li>
             <li>
@@ -90,12 +98,12 @@
               >
             </li>
             <li><a href="#">Send feedback</a></li>
-                    </ul>
-                </li>
                 </ul>
-        </div>
+            </li>
+            </ul>
+            </div>
 
-        <!-- Footer -->
+            <!-- Footer -->
 </body>
 
 </html>
