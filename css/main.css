@@ -12,13 +12,14 @@ body {
 
 .nav-item {
   text-decoration: none;
-  color: #000000de;
+  color: #5f6368;
   font-size: 15px;
 }
 
 .nav-item:hover {
   color: #5f6368;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .button {
@@ -141,6 +142,7 @@ span {
   text-align: left;
   display: block;
   line-height: 1.15;
+  bottom: 0;
 }
 
 .footer {
@@ -150,10 +152,11 @@ span {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: #5f6368;
 }
 
 .adver-section ul,
-.privacy-section ul {
+.privacy-section ul:not(.dropup-content) {
   display: flex;
   justify-content: space-evenly;
 }
@@ -161,22 +164,29 @@ span {
 .dropup {
   position: relative;
   display: inline-block;
+  color: #0000008a;
+  cursor: pointer;
 }
 
 .dropup-content {
   display: none;
   position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  padding: 16px;
-  border: 1px solid #dfe1e5;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   bottom: 50px;
-  /* z-index: 1; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
 }
 
 .dropup:hover .dropup-content {
   display: block;
+  cursor: pointer;
+}
+
+.dropup:active {
+  margin-right: 1px 1px 0;
+  outline: 1px solid transparent;
+}
+
+.dropup-content li {
+  padding: 10px;
 }
