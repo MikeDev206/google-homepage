@@ -1,109 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google-Homepage-Replica</title>
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Navigation bar // Header-->
-
-    <ul class="navbar">
-        <li><a href="https://www.google.com.mx/imghp?hl=es"> Gmail </a></li>
-        <li><a href="https://www.google.com.mx/imghp?hl=es"> Images</a></li>
+    <div class="navbar">
+      <ul>
         <li>
-            <img class="nav-icon" src="./assets/icons/menu.svg" alt="apps menu" />
+          <a class="nav-item" href="https://www.google.com.mx/imghp?hl=es">
+            Gmail
+          </a>
         </li>
         <li>
-            <img class="usr-img" src="./assets/img/myimg.jpg" alt="user button" />
+          <a class="nav-item" href="https://www.google.com.mx/imghp?hl=es">
+            Images</a
+          >
         </li>
-    </ul>
-
+        <li>
+          <img
+            class="nav-item nav-icon"
+            src="./assets/icons/menu.svg"
+            alt="apps menu"
+          />
+        </li>
+        <li>
+          <img
+            class="nav-item nav-icon usr-img"
+            src="./assets/img/myimg.jpg"
+            alt="user button"
+          />
+        </li>
+      </ul>
+    </div>
     <!--Navigation bar // Header-->
 
     <!--Main section-->
+    <div class="main">
+      <div class="google-logo">
+        <img
+          src="./assets/img/googlelogo_color_272x92dp.png"
+          alt="google logo"
+        />
+      </div>
+      <div class="wrapper">
+        <img
+          class="nav-icon"
+          src="./assets/icons/search.svg"
+          alt="search icon"
+        />
 
-    <main>
-        <div class="google-logo">
-            <img src="./assets/img/googlelogo_color_272x92dp.png" alt="google logo" />
-        </div>
-        <div class="search-bar">
-            <img class="nav-icon" src="./assets/icons/search.svg" alt="search icon" />
+        <input class="search-bar" type="text" name="search" size="40" />
 
-            <input type="text" name="search" size="40" />
+        <img
+          class="nav-icon"
+          src="./assets/icons/microphone.svg"
+          alt="microphone"
+        />
+      </div>
 
-            <img class="nav-icon" src="./assets/icons/microphone.svg" alt="microphone" />
-        </div>
+      <div class="submit-wrapper">
         <button class="button" type="submit">Google Search</button>
         <button class="button" type="submit">I'm Feeling lucky</button>
+      </div>
+      <div class="other-language">
         <p>
-            Google offered in:
-            <a href="https://www.google.com/setprefs?sig=0_NbHu266YoPfbGnRcH4wwW2GUsVU%3D&amp;hl=es-419&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjN6pvAltDqAhUKKawKHVbiCicQ2ZgBCA8">Español (Latinoamérica)</a
-        >
-      </p>
-    </main>
+          Google offered in:
+          <a href="https://www.google.com/">Español (Latinoamérica)</a>
+          </p>
+    </div>
+    </div>
 
     <!--Main section-->
 
     <!-- Footer -->
+    <div>
+      <span>México</span>
+    </div>
 
-    <legend>México</legend>
-    <div class="nav footer">
-      <ul>
-        <a
-          href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
-          >Advertising</a
-        >
-        <a
-          href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/"
-          >Advertising</a
-        >
-        <a
-          href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1"
-          >About</a
-        >
-        <a href="https://www.google.com/search/howsearchworks/?fg=1"
-          >How Search Works</a
-        >
-      </ul>
-      <ul>
-        <a href="https://policies.google.com/privacy?hl=en-MX&fg=1">Privacy</a>
+    <div class="footer">
+
+      <!--left section-->
+
+      <div class="adver-section">
+        <ul>
+          <li>
+            <a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+              Advertising
+            </a>
+          </li>
+          <li>
+            <a href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/">
+              Business
+            </a>
+          </li>
+          <li>
+            <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">
+              How Search Works
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- left section-->
+
+      <!-- right section -->
+
+      <div class="privacy-section">
+        <ul>
+          <li>
+            <a href="https://policies.google.com/privacy?hl=en-MX&fg=1">
+              Privacy
+            </a>
+          </li>
+          <li>
             <a href="https://policies.google.com/terms?hl=en-MX&fg=1">Terms</a>
-            <li>
-                Settings
-                <ul>
-                    <li>Search Settings</li>
-                    <li>
-                        <a href="https://www.google.com/advanced_search?hl=en-MX&fg=1">Search</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1"
-                >Your data in Search</a
-              >
-            </li>
-            <li>
-              <a href="https://www.google.com/history/optout?hl=en-MX&fg=1"
-                >Search Activity</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://support.google.com/websearch/?visit_id=637304455488971143-276506580&hl=en-MX&rd=2#topic=3378866"
-                >Search help</a
-              >
-            </li>
-            <li><a href="#">Send feedback</a></li>
-                </ul>
-            </li>
+          </li>
+          <li class="dropup">
+            Settings
+            <ul class="dropup-content">
+              <li>Search Settings</li>
+              <li>
+                <a href="https://www.google.com/advanced_search?hl=en-MX&fg=1">Search</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1"
+                  >Your data in Search</a
+                >
+              </li>
+              <li>
+                <a href="https://www.google.com/history/optout?hl=en-MX&fg=1"
+                  >Search Activity</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://support.google.com/websearch/?visit_id=637304455488971143-276506580&hl=en-MX&rd=2#topic=3378866"
+                  >Search help</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  Send feedback
+                </a>
+              </li>
             </ul>
-            </div>
+          </li>
+        </ul>
+      </div>
 
-            <!-- Footer -->
-</body>
+      <!-- right section -->
+    </div>
+
+    <!-- Footer -->
+  </body>
 
 </html>
